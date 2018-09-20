@@ -1,5 +1,4 @@
 $(document).ready(function () {
-    console.log("Добро пожаловать в Timedesk");
     // Header
     let options = {
         offset: 250
@@ -49,6 +48,6 @@ $(document).ready(function () {
             '                </div>');
         console.log(infoAboutArray[i].headline + ' -- published');
     }
-
-
 });
+
+console.log("index.js - read");
