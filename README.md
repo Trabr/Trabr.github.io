@@ -9,7 +9,7 @@
 
 #### **Sadov Aleksandr**
 
-> #####  Web-developer
+> #####  Web-Developer
 
 -  **[Telegram](https://t.me/Alexsandrrh)**
 
@@ -21,5 +21,5 @@
 
 > ##### **Web-Designer**
 
-- [**Telegram**]()
+- [**Telegram**](https://t.me/sah4pok)
 - [**VK**](https://vk.com/sah4pok)
