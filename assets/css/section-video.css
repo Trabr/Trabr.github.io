@@ -1,21 +1,71 @@
 @media screen and (min-width: 320px){
-    .section-video {
-        background: rgba(68, 141, 255, 1);
+    .section-object {
+        background: #0061ff;
     }
 
-    .flex-video {
+    .flex-object {
         display: flex;
-        justify-content: center;
+        flex-direction: column;
         align-items: center;
-        padding: 35px 0;
+        min-height: 370px;
+        padding: 50px 0;
     }
 
+    .block-object__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .block-object__content h2 {
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 1.1875;
+        padding: 0 10px;
+        color: #ffffff;
+        max-width: 590px;
+    }
+
+    .block-object__content p {
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #f4f4f4;
+        margin: 1.5em 0 3px;
+        max-width: 590px;
+    }
+
+    .mobile-device {
+        margin-top: 60px;
+    }
+
+    .mobile-head {
+        background: #e6e8eb;
+        border-radius: 3px 3px 0 0;
+        width: 100%;
+        height: 34px;
+    }
 
     .mobile-section video {
         width: 100%;
     }
+
+    .mobile-section img {
+        width: 100%;
+    }
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 1024px){
+    .flex-object {
+        flex-direction: row;
+    }
 
+    .mobile-section {
+        width: 50%;
+    }
 }

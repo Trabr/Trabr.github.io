@@ -9,25 +9,25 @@ $(document).ready(function () {
     // sectionAbout functions
     let infoAboutArray = [
         {
-            "img":"https://static.grammarly.com/assets/files/3e801733cdff17557fe4510e55523114/icon1.svg",
-            "headline":"Попрощайтесь с неудобным расписанием",
+            "img":"",
+            "headline":"Попрощайтесь с неудобным расписанием на всегда",
             "content":"Главной задачей Timedesk является создание общедоступного для групп расписания и удобное чтение информации",
             "poster":"https://static.grammarly.com/assets/files/2e8a918f1d91224f68e5c62bee3852c9/online-grammar-check.png"
         },
         {
-            "img":"https://static.grammarly.com/assets/files/92e2dfdb0cda2baab98bb97a7c03161f/icon2.svg",
+            "img":"",
             "headline":"Облачное храние",
             "content":"Да, да теперь ваше расписание не пропадет даже если у вас сломается смартфон или компьютер",
             "poster":"https://static.grammarly.com/assets/files/f487bfb40d1cb6619ed3cf7fc8a95c42/grammar-check-rules.png"
         },
         {
-            "img":"https://static.grammarly.com/assets/files/991461eddaab19c90c9aa0769565e4eb/icon3.svg",
+            "img":"",
             "headline":"Умные push - уведомления",
             "content":"Личный помощник по мониторингу вашего времени, во сколько начинается предмет, перемена или на оборот",
             "poster":"https://static.grammarly.com/assets/files/3d022282cacf700413d93b2b4fa0768c/grammar-check-explanation.png"
         },
         {
-            "img":"https://static.grammarly.com/assets/files/e49fbea3c4f8f14eb818bc2f3f007ca6/icon4.svg",
+            "img":"",
             "headline":"Личный аккаунт",
             "content":"Частичка вашего удобства в корректировке рабочего интерфейса Timedesk с сохранением или что-то другое …",
             "poster":"https://static.grammarly.com/assets/files/3a077775630a404f119dabd50f32ea94/do-great-things.svg"

@@ -21,10 +21,10 @@
 
     .block-about__head h2 {
         font-family: 'Roboto', sans-serif;
-        font-size: 24px;
-        line-height: 32px;
+        font-size: 27px;
+        line-height: 34px;
         font-weight: 500;
-        color: #181a20;
+        color: #000000;
         margin-bottom: 25px;
     }
 
@@ -36,8 +36,9 @@
     .block-about__head p {
         font-family: 'Roboto', sans-serif;
         font-size: 18px;
-        line-height: 26px;
-        color: #697191;
+        line-height: 28px;
+        font-weight: 400;
+        color: #222d39;
         margin-bottom: 25px;
     }
 
@@ -65,11 +66,11 @@
     }
 
     .block-about__head {
-        max-width: 450px;
+        max-width: 48%;
     }
 
     .block-about__content {
-        width: 340px;
+        width: 48%;
         margin: 0 auto;
     }
 }
