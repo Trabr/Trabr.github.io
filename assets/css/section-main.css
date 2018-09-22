@@ -4,7 +4,9 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding: 20px 0 50px;
+        margin-bottom: 30px;
+        min-height: 390px;
+        max-height: 440px;
     }
 
     .flex-main__content {

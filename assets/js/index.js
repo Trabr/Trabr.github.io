@@ -11,7 +11,7 @@ $(document).ready(function () {
         {
             "img":"",
             "headline":"Попрощайтесь с неудобным расписанием на всегда",
-            "content":"Главной задачей Timedesk является создание общедоступного для групп расписания и удобное чтение информации",
+            "content":"Главной задачей Timedesk является создание общедоступного расписания для групп и удобное чтение любой информации",
             "poster":"https://static.grammarly.com/assets/files/2e8a918f1d91224f68e5c62bee3852c9/online-grammar-check.png"
         },
         {
