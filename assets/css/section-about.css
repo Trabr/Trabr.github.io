@@ -7,7 +7,7 @@
         display: flex;
         flex-direction: column;
         width: 100%;
-        margin-bottom: 80px;
+        margin-bottom: 75px;
     }
 
     .block-about__head {
@@ -24,7 +24,7 @@
         font-size: 24px;
         line-height: 32px;
         font-weight: 500;
-        color: #2b2d38;
+        color: #181a20;
         margin-bottom: 25px;
     }
 
@@ -37,8 +37,8 @@
         font-family: 'Roboto', sans-serif;
         font-size: 18px;
         line-height: 26px;
-        color: #8189a9;
-        margin-bottom: 35px;
+        color: #697191;
+        margin-bottom: 25px;
     }
 
     .block-about__content img {

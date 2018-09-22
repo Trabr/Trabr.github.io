@@ -20,7 +20,7 @@
         font-size: 30px;
         line-height: 38px;
         font-weight: 500;
-        color: #2b2d38;
+        color: #222225;
         padding: 0 15px;
         margin-bottom: 30px;
     }
@@ -31,8 +31,17 @@
         font-size: 17px;
         line-height: 24px;
         font-weight: 400;
-        color: #555a70;
+        color: #42455b;
         margin-bottom: 20px;
+    }
+
+    .flex-main__content p {
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+        font-style: italic;
+        line-height: 19px;
+        color: #bababa;
     }
 
     .flex-main__links {
@@ -40,7 +49,8 @@
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        width: 280px;
+        min-width: 290px;
+        max-width: 320px;
     }
 
     .flex-main__links a svg {
