@@ -8,7 +8,7 @@
         flex-direction: column;
         align-items: center;
         min-height: 370px;
-        padding: 50px 0;
+        padding: 50px 10px;
     }
 
     .block-object__content {
@@ -24,7 +24,6 @@
         font-size: 32px;
         font-weight: 500;
         line-height: 1.1875;
-        padding: 0 10px;
         color: #ffffff;
         max-width: 590px;
     }
@@ -37,7 +36,6 @@
         line-height: 1.5;
         color: #f4f4f4;
         margin: 1.5em 0 3px;
-        padding: 0 10px;
         max-width: 590px;
     }
 
@@ -64,9 +62,15 @@
 @media screen and (min-width: 1024px){
     .flex-object {
         flex-direction: row;
+        justify-content: space-between;
     }
 
-    .mobile-section {
+    .mobile-device {
         width: 50%;
     }
+
+    .block-object__content {
+        width: 45%;
+    }
+
 }

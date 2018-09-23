@@ -42,8 +42,9 @@
         line-height: 1.625em;
         width: 260px;
         padding: 8px 30px;
-        color: #0061ff;
-        border-radius: 2px;
+        color: #fff;
+        border-radius: 1px;
+        background-color: #0061ff;
         border: 2px solid #0061ff;
         margin: 0 auto 15px;
     }

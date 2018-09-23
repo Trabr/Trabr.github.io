@@ -1,6 +1,8 @@
 @media screen and (min-width: 320px){
-    .section-about {
-        padding: 50px 15px 40px;
+    .flex-about {
+        display: flex;
+        flex-direction: column;
+        padding: 50px 10px 40px;
     }
 
     .block-about {
@@ -43,6 +45,11 @@
     }
 
     .block-about__content img {
+        width: 100%;
+        opacity: .95;
+    }
+
+    .block-about__content video {
         width: 100%;
         opacity: .95;
     }

@@ -7,6 +7,7 @@
         margin-bottom: 30px;
         min-height: 390px;
         max-height: 440px;
+        padding: 0 10px;
     }
 
     .flex-main__content {
@@ -23,7 +24,6 @@
         line-height: 46px;
         font-weight: 500;
         color: #000000;
-        padding: 0 10px;
         margin-bottom: 20px;
     }
 
@@ -34,7 +34,6 @@
         line-height: 24px;
         font-weight: 400;
         color: #222225;
-        padding: 0 10px;
         margin-bottom: 20px;
     }
 
@@ -58,7 +57,7 @@
 
     .flex-main__links a svg {
         width: 120px;
-        height: 45px;
+        height: 50px;
     }
 }
 

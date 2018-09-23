@@ -12,25 +12,25 @@ $(document).ready(function () {
             "img":"",
             "headline":"Попрощайтесь с неудобным расписанием на всегда",
             "content":"Главной задачей Timedesk является создание общедоступного расписания для групп и удобное чтение любой информации",
-            "poster":"https://static.grammarly.com/assets/files/2e8a918f1d91224f68e5c62bee3852c9/online-grammar-check.png"
+            "poster":"https://aem.dropbox.com/cms/content/dam/dropbox/www/en-us/showcase/Gif_01@2x.mp4",
         },
         {
             "img":"",
             "headline":"Облачное храние",
             "content":"Да, да теперь ваше расписание не пропадет даже если у вас сломается смартфон или компьютер",
-            "poster":"https://static.grammarly.com/assets/files/f487bfb40d1cb6619ed3cf7fc8a95c42/grammar-check-rules.png"
+            "poster":"assets/media/hero-ru.mp4"
         },
         {
             "img":"",
             "headline":"Умные push - уведомления",
             "content":"Личный помощник по мониторингу вашего времени, во сколько начинается предмет, перемена или на оборот",
-            "poster":"https://static.grammarly.com/assets/files/3d022282cacf700413d93b2b4fa0768c/grammar-check-explanation.png"
+            "poster":"assets/media/more_than_words-ru.mp4"
         },
         {
             "img":"",
             "headline":"Личный аккаунт",
             "content":"Частичка вашего удобства в корректировке рабочего интерфейса Timedesk с сохранением или что-то другое …",
-            "poster":"https://static.grammarly.com/assets/files/3a077775630a404f119dabd50f32ea94/do-great-things.svg"
+            "poster":"assets/media/hero-ru.mp4"
         }
     ];
     JSON.stringify(infoAboutArray);
@@ -43,7 +43,7 @@ $(document).ready(function () {
             '                        <p>' + infoAboutArray[i].content + '</p>\n' +
             '                    </div>\n' +
             '                    <div class="block-about__content">\n' +
-            '                        <img src="' + infoAboutArray[i].poster + '">\n' +
+            '                        <video src="' + infoAboutArray[i].poster + '" autoplay loop></video>\n' +
             '                    </div>\n' +
             '                </div>');
         console.log(infoAboutArray[i].headline + ' -- published');
